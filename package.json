@@ -1,0 +1,29 @@
+{
+  "name": "robotic-arm-3d",
+  "version": "1.0.0",
+  "description": "Professional 3D robotic arm simulator with real-time hand tracking using Three.js and MediaPipe",
+  "type": "module",
+  "author": "Devansh V Purohit",
+  "keywords": [
+    "robotics",
+    "3d-simulation",
+    "hand-tracking",
+    "mediapipe",
+    "threejs",
+    "inverse-kinematics",
+    "computer-vision"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^7.2.4"
+  },
+  "dependencies": {
+    "@mediapipe/camera_utils": "^0.3.1675466862",
+    "@mediapipe/hands": "^0.4.1675469240",
+    "three": "^0.181.2"
+  }
+}
